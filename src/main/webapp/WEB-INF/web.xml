@@ -6,11 +6,13 @@
 	<display-name>apache-tiles-example</display-name>
 
 	<listener>
+		<!-- The CompleteAutoloadListener loads listeners for all tiles features -->
 		<listener-class>org.apache.tiles.extras.complete.CompleteAutoloadTilesListener</listener-class>
 	</listener>
 
 	<servlet>
 		<servlet-name>Tiles Dispatch Servlet</servlet-name>
+		<!-- The TilesDispatchServlet is configured to serve tiles definitions -->
 		<servlet-class>org.apache.tiles.web.util.TilesDispatchServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
