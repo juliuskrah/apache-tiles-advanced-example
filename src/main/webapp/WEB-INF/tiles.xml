@@ -4,7 +4,7 @@
        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
 <tiles-definitions>
 	<definition name="myapp.homepage" template="/layouts/classic.jsp">
-		<put-attribute name="title" value="Tiles tutorial homepage" />
+		<put-attribute name="title" value="Home || Tiles tutorial" />
 		<put-attribute name="header" value="/tiles/banner.jsp" />
 		<put-attribute name="menu" value="/tiles/common_menu.jsp" />
 		<put-attribute name="body">
@@ -17,5 +17,9 @@
 		<put-attribute name="footer" value="/tiles/credits.jsp" />
 		<put-attribute name="heading" value="/tiles/blog_header.jsp" />
 		<put-attribute name="navigation" value="/tiles/navigation.jsp" />
+	</definition>
+	<definition name="myapp.new-features" extends="myapp.homepage">
+		<put-attribute name="title" value="New Features || Tiles tutorial" />
+		<put-attribute name="heading" value="/tiles/new_features_header.jsp" />
 	</definition>
 </tiles-definitions>
