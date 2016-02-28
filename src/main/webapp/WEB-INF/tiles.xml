@@ -18,8 +18,18 @@
 		<put-attribute name="heading" value="/tiles/blog_header.jsp" />
 		<put-attribute name="navigation" value="/tiles/navigation.jsp" />
 	</definition>
+
 	<definition name="myapp.new-features" extends="myapp.homepage">
 		<put-attribute name="title" value="New Features || Tiles tutorial" />
 		<put-attribute name="heading" value="/tiles/new_features_header.jsp" />
+	</definition>
+
+	<definition name="myapp.list" template="/layouts/variable_rows.jsp" extends="myapp.homepage">
+		<put-attribute name="title" value="List || Tiles tutorial" />
+		<put-list-attribute name="items">
+			<add-attribute value="/tiles/blog_three.jsp" />
+			<add-attribute value="/tiles/blog_two.jsp" />
+			<add-attribute value="/tiles/blog_one.jsp" />
+		</put-list-attribute>
 	</definition>
 </tiles-definitions>
