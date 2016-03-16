@@ -1,4 +1,6 @@
 # Apache Tiles Advanced Sample
+[![Build Status](https://travis-ci.org/jipaman/apache-tiles-advanced-example.svg?branch=master)](https://travis-ci.org/jipaman/apache-tiles-advanced-example)
+
 This sample illustrates some of the advanced features of Apache Tiles 3. It uses the Anonymous Nested Definitions.
 
 ## Pre requiites

@@ -24,12 +24,17 @@
 		<put-attribute name="heading" value="/tiles/new_features_header.jsp" />
 	</definition>
 
-	<definition name="myapp.list" template="/layouts/variable_rows.jsp" extends="myapp.homepage">
+	<definition name="myapp.list" template="/layouts/variable_rows.jsp"
+		extends="myapp.homepage">
 		<put-attribute name="title" value="List || Tiles tutorial" />
 		<put-list-attribute name="items">
 			<add-attribute value="/tiles/blog_three.jsp" />
 			<add-attribute value="/tiles/blog_two.jsp" />
 			<add-attribute value="/tiles/blog_one.jsp" />
 		</put-list-attribute>
+	</definition>
+
+	<definition name="preparer.definition"  extends="myapp.homepage"
+		preparer="com.jipasoft.tiles.preparers.BodyViewPreparer">
 	</definition>
 </tiles-definitions>
