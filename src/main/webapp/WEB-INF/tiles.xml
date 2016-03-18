@@ -34,7 +34,4 @@
 		</put-list-attribute>
 	</definition>
 
-	<definition name="preparer.definition"  extends="myapp.homepage"
-		preparer="com.jipasoft.tiles.preparers.BodyViewPreparer">
-	</definition>
 </tiles-definitions>
