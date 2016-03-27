@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	version="3.1">
+	<display-name>apache-tiles-example</display-name>
+
+	<listener>
+	<!-- The CompleteAutoloadListener loads listeners for all tiles features -->
+		<listener-class>org.apache.tiles.web.startup.simple.SimpleTilesListener</listener-class>
+	</listener>
+
+	<servlet>
+		<servlet-name>Tiles Dispatch Servlet</servlet-name>
+		<!-- The TilesDispatchServlet is configured to serve tiles definitions -->
+		<servlet-class>org.apache.tiles.web.util.TilesDispatchServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Tiles Dispatch Servlet</servlet-name>
+		<url-pattern>*.tiles</url-pattern>
+	</servlet-mapping>
+
+	<welcome-file-list>
+		<welcome-file>example/home.tiles</welcome-file>
+	</welcome-file-list>
+</web-app>
