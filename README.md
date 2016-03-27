@@ -1,5 +1,5 @@
 # Apache Tiles Advanced Sample
-[![Build Status](https://travis-ci.org/jipaman/apache-tiles-advanced-example.svg?branch=view-preparer)](https://travis-ci.org/jipaman/apache-tiles-advanced-example)
+[![Build Status](https://travis-ci.org/jipaman/apache-tiles-advanced-example.svg?branch=wild-cards)](https://travis-ci.org/jipaman/apache-tiles-advanced-example)
 
 This branch illustrates some of the advanced features of Apache Tiles 3. It uses _wild-cards_ when working with the default configuration
 
