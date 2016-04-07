@@ -8,7 +8,7 @@
 			<a class="blog-nav-item active" href="${homepage}">Home</a> 
 			<a class="blog-nav-item" href="${newfeatures}">Override</a> 
 			<a class="blog-nav-item" href="${list}">List</a> 
-			<a class="blog-nav-item" href="#">View Preparer</a> 
+			<a class="blog-nav-item" href="#">Dummy</a> 
 			<a class="blog-nav-item" href="#">About</a>
 		</nav>
 	</div>
