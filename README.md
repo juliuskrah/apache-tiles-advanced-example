@@ -5,7 +5,7 @@ This sample illustrates some of the advanced features of Apache Tiles 3. It demo
 
 The template used for this demonstration is provided by [twitter-bootstrap][bootstrap]
 
-## Pre requiites
+## Pre requisites
 - Java 8+
 - Maven 3.3.3+
 
